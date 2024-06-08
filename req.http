@@ -1,0 +1,10 @@
+get http://localhost:4000/user-api/test-user
+###
+post  http://localhost:4000/user-api/user
+Content-Type: application/json
+{
+    "userType":"user",
+    "username":"ravi",
+    "password":"ravi",
+    "email":"ravi@gmail.com"
+}
